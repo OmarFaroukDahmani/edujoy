@@ -111,7 +111,7 @@ export default function Team() {
           CEO
         </p>
         <p class="text-blk feature-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, repudiandae?
         </p>
         <div class="social-icons">
           <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
