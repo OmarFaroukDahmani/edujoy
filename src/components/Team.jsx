@@ -1,121 +1,30 @@
-
+import linkedin from '../assets/inkedin_icon.svg'
+import omar from "../assets/omar.jpg"
 
 export default function Team() {
 
     return(
-        // <div id="team" className="team">
-        //     <h1 className="title">Meet Our Team</h1>
-        //     <div className="team-members">
-        //         <div className="member">
-        //             <div className='member_img'>
-        //                 <img src={member} alt="Team Member" />
-        //             </div>
-        //             <img src={logo} id="logo" alt="logo" />
-        //             <div className='member_info'>
-        //                 <h3>Omar Farouk Dahmani</h3>
-        //                 <p>Presedent</p>
-        //             </div>
-        //         </div>
-        //                         <div className="member">
-        //             <div className='member_img'>
-        //                 <img src={member} alt="Team Member" />
-        //             </div>
-        //             <img src={logo} id="logo" alt="logo" />
-        //             <div className='member_info'>
-        //                 <h3>Omar Farouk Dahmani</h3>
-        //                 <p>Presedent</p>
-        //             </div>
-
-        //         </div>
-        //                         <div className="member">
-        //             <div className='member_img'>
-        //                 <img src={member} alt="Team Member" />
-        //             </div>
-        //             <img src={logo} id="logo" alt="logo" />
-        //             <div className='member_info'>
-        //                 <h3>Omar Farouk Dahmani</h3>
-        //                 <p>Presedent</p>
-        //             </div>
-
-        //         </div>
-        //                         <div className="member">
-        //             <div className='member_img'>
-        //                 <img src={member} alt="Team Member" />
-        //             </div>
-        //             <img src={logo} id="logo" alt="logo" />
-        //             <div className='member_info'>
-        //                 <h3>Omar Farouk Dahmani</h3>
-        //                 <p>Presedent</p>
-        //             </div>
-
-        //         </div>
-        //                         <div className="member">
-        //             <div className='member_img'>
-        //                 <img src={member} alt="Team Member" />
-        //             </div>
-        //             <img src={logo} id="logo" alt="logo" />
-        //             <div className='member_info'>
-        //                 <h3>Omar Farouk Dahmani</h3>
-        //                 <p>Presedent</p>
-        //             </div>
-
-        //         </div>
-        //                         <div className="member">
-        //             <div className='member_img'>
-        //                 <img src={member} alt="Team Member" />
-        //             </div>
-        //             <img src={logo} id="logo" alt="logo" />
-        //             <div className='member_info'>
-        //                 <h3>Omar Farouk Dahmani</h3>
-        //                 <p>Presedent</p>
-        //             </div>
-
-        //         </div>
-        //                         <div className="member">
-        //             <div className='member_img'>
-        //                 <img src={member} alt="Team Member" />
-        //             </div>
-        //             <img src={logo} id="logo" alt="logo" />
-        //             <div className='member_info'>
-        //                 <h3>Omar Farouk Dahmani</h3>
-        //                 <p>Presedent</p>
-        //             </div>
-
-        //         </div>
-        //                         <div className="member">
-        //             <div className='member_img'>
-        //                 <img src={member} alt="Team Member" />
-        //             </div>
-        //             <img src={logo} id="logo" alt="logo" />
-        //             <div className='member_info'>
-        //                 <h3>Omar Farouk Dahmani</h3>
-        //                 <p>Presedent</p>
-        //             </div>
-
-        //         </div>
-
-        //     </div>
-        // </div>
+    <div className='team'>
     <div id="team" class="responsive-container-block container">
     <p class=" title text-blk team-head-text"> Our Team </p>
     <div class="responsive-container-block">
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
     <div class="card">
         <div class="team-image-wrapper">
-        <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png" alt="icon"/>
+        <img class="team-member-image" src={omar} alt="icon"/>
         </div>
         <p class="text-blk name">
-          Davis George
+          Omar Farouk Dahmani
         </p>
         <p class="text-blk position">
-          CEO
+          Presedent
         </p>
         <p class="text-blk feature-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, repudiandae?
+          If you want it, just get it.
         </p>
         <div class="social-icons">
-          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-            <img class="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg" rel="noopenr" alt="icon"/>
+          <a href="https://www.linkedin.com/in/omar-farouk-dahmani-b3a480334/" target="_blank" rel="noopener noreferrer">
+            <img class="linkedin-icon" src={linkedin} rel="noopenr" alt="icon"/>
           </a>
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
             <img class="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg" rel="noopenr" alt="icon"/>
@@ -129,17 +38,17 @@ export default function Team() {
           <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png" rel="noopenr" alt="icon"/>
         </div>
         <p class="text-blk name">
-          Davis George
+          Assil GLii
         </p>
         <p class="text-blk position">
-          CEO
+          Vice-Presedent
         </p>
         <p class="text-blk feature-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Lorem ipsum dolor sit amet .
         </p>
         <div class="social-icons">
           <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-            <img class="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg" rel="noopenr" alt="icon"/>
+            <img class="linkedin-icon" src={linkedin} rel="noopenr" alt="icon"/>
           </a>
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
             <img class="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg" rel="noopenr" alt="icon"/>
@@ -153,17 +62,17 @@ export default function Team() {
           <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.14.png" rel="noopenr" alt="icon"/>
         </div>
         <p class="text-blk name">
-          Davis George
+          Fahmi Zarrougi
         </p>
         <p class="text-blk position">
-          CEO
+          Founder
         </p>
         <p class="text-blk feature-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Lorem ipsum dolor sit amet .
         </p>
         <div class="social-icons">
           <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-            <img class="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg" rel="noopenr" alt="icon"/>
+            <img class="linkedin-icon" src={linkedin} rel="noopenr" alt="icon"/>
           </a>
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
             <img class="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg" rel="noopenr" alt="icon"/>
@@ -177,17 +86,17 @@ export default function Team() {
           <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.15.png" alt="icon"/>
         </div>
         <p class="text-blk name">
-          Davis George
+          Raniya Kawem
         </p>
         <p class="text-blk position">
-          CEO
+          RH
         </p>
         <p class="text-blk feature-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Lorem ipsum dolor sit amet .
         </p>
         <div class="social-icons">
           <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-            <img class="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg" rel="noopenr" alt="icon"/>
+            <img class="linkedin-icon" src={linkedin} rel="noopenr" alt="icon"/>
           </a>
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
             <img class="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg" rel="noopenr" alt="icon"/>
@@ -195,6 +104,7 @@ export default function Team() {
         </div>
       </div>
     </div>
+</div>
 </div>
 </div>
     ) 
