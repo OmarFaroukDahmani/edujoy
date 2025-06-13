@@ -1,5 +1,7 @@
 import linkedin from '../assets/inkedin_icon.svg'
 import omar from "../assets/omar.jpg"
+import assil from '../assets/assil.jpeg'
+import heni from '../assets/heni.jpeg'
 
 export default function Team() {
 
@@ -35,16 +37,16 @@ export default function Team() {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png" rel="noopenr" alt="icon"/>
+          <img class="team-member-image" src={assil} rel="noopenr" alt="icon"/>
         </div>
         <p class="text-blk name">
-          Assil GLii
+          Assil Ben Kamel
         </p>
         <p class="text-blk position">
           Vice-Presedent
         </p>
         <p class="text-blk feature-text">
-          Lorem ipsum dolor sit amet .
+          Yes we can .
         </p>
         <div class="social-icons">
           <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
@@ -68,7 +70,7 @@ export default function Team() {
           Founder
         </p>
         <p class="text-blk feature-text">
-          Lorem ipsum dolor sit amet .
+          Think ,Treat then do.
         </p>
         <div class="social-icons">
           <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
@@ -83,16 +85,16 @@ export default function Team() {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.15.png" alt="icon"/>
+          <img class="team-member-image" src={heni} alt="icon"/>
         </div>
         <p class="text-blk name">
-          Raniya Kawem
+          Heni Bahrouni
         </p>
         <p class="text-blk position">
-          RH
+          Communications Manager
         </p>
         <p class="text-blk feature-text">
-          Lorem ipsum dolor sit amet .
+          The future belongs to those who believe in the beauty of their dreams.
         </p>
         <div class="social-icons">
           <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
